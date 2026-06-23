@@ -224,6 +224,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: top;
     transition: transform 0.3s ease;
 }
 
@@ -345,6 +346,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: top;
     transition: transform 0.4s ease;
 }
 
@@ -646,11 +648,15 @@ body {
 
     .vs-card {
         aspect-ratio: 4/3;
-        max-height: 35vh;
+        max-height: 30vh;
     }
 
     .group-grid {
         gap: 10px;
+    }
+
+    .group-card {
+        aspect-ratio: 3/3.5;
     }
 
     .podium-container {
