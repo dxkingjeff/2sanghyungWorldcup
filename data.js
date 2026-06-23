@@ -68,7 +68,7 @@ const CHARACTERS = {
         { id: "f27", name: "추미애", img: "images2/추미애.png" },
         { id: "f28", name: "카리나", img: "images2/카리나.png" },
         { id: "f29", name: "하리수", img: "images2/하리수.png" },
-        { id: "f30", name: "한다희", img: "images2/한다희.png" },
+        { id: "f30", name: "한소희", img: "images2/한소희.png" },
         { id: "f31", name: "화사", img: "images2/화사.png" },
         { id: "f32", name: "황우슬혜", img: "images2/황우슬혜.png" }
     ]
