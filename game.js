@@ -169,7 +169,7 @@
             img.src = imgUrl;
             img.alt = char.name;
             img.loading = 'eager';
-            img.style.cssText = 'width:100%;height:100%;object-fit:cover;object-position:top;';
+            img.style.cssText = 'width:100%;height:100%;object-fit:cover;object-position:center 20%;';
             img.onload = function() { loader.style.display = 'none'; };
 
             const nameDiv = document.createElement('div');
@@ -289,13 +289,13 @@
                     <div class="vs-container">
                         <div class="vs-card" id="vs-left" data-side="0">
                             <div class="img-loading" style="width:100%;height:100%;position:absolute;top:0;left:0;"></div>
-                            <img id="img-left" alt="${pair[0].name}" loading="eager" style="width:100%;height:100%;object-fit:cover;object-position:top;">
+                            <img id="img-left" alt="${pair[0].name}" loading="eager" style="width:100%;height:100%;object-fit:cover;object-position:center 20%;">
                             <div class="card-name">${pair[0].name}</div>
                         </div>
                         <div class="vs-badge">VS</div>
                         <div class="vs-card" id="vs-right" data-side="1">
                             <div class="img-loading" style="width:100%;height:100%;position:absolute;top:0;left:0;"></div>
-                            <img id="img-right" alt="${pair[1].name}" loading="eager" style="width:100%;height:100%;object-fit:cover;object-position:top;">
+                            <img id="img-right" alt="${pair[1].name}" loading="eager" style="width:100%;height:100%;object-fit:cover;object-position:center 20%;">
                             <div class="card-name">${pair[1].name}</div>
                         </div>
                     </div>
